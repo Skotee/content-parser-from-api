@@ -1,0 +1,27 @@
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+*.dll
+*.pdb
+
+# Visual Studio
+.vs/
+.idea/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+
+# macOS
+.DS_Store
+
+# Secrets / local config
+*.pfx
+*.pem
+.env
+appsettings.*.local.json
