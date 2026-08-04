@@ -4,7 +4,7 @@ public class CsvContentParser : IContentParser
 
     public List<Dictionary<string, object?>> Parse(string decodedContent)
     {
-        var lines = decodedContent.Split(new[] { "\r\n", "\n" }, StringSplitOptions.None);
+        var lines = decodedContent.Split(["\r\n", "\n"], StringSplitOptions.None);
         var rows = lines
         .Where(line => !string.IsNullOrWhiteSpace(line)) 
         .Select(line => line.Split(','))
