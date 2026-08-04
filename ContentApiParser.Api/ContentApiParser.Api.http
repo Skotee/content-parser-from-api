@@ -11,3 +11,17 @@ POST {{ContentApiParser_Api_HostAddress}}/api/v1/parse-content
 Content-Type: application/json
 
 { "type": "CSV", "content": "YQ==" }
+
+###
+
+POST {{ContentApiParser_Api_HostAddress}}/api/v1/parse-content
+Content-Type: application/json
+
+{ "type": "CSV", "content": "bmFtZSxhZ2UKSmFuLDI1CkFubmEsMzA=" }
+
+###
+
+POST {{ContentApiParser_Api_HostAddress}}/api/v1/parse-content
+Content-Type: application/json
+
+{ "type": "INTERNAL_JSON", "content": "W3sibmFtZSI6IkphbiIsImFnZSI6MjV9XQ==" }
